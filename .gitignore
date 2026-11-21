@@ -1,0 +1,6 @@
+﻿__pycache__/
+*.pyc
+data/cache/
+*.db-wal
+*.db-shm
+.DS_Store

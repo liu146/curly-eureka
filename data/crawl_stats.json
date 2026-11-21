@@ -1,0 +1,20 @@
+{
+  "generated_at": "2026-11-21T16:09:19",
+  "counts": {
+    "cities": 12,
+    "forecasts": 84,
+    "history": 8760,
+    "crawl_log": 308
+  },
+  "crawl": {
+    "requests": 308,
+    "ok": 302,
+    "fail": 6,
+    "rows": 8858,
+    "seconds": 768.0,
+    "avg_ms": 1159,
+    "start": "2026-11-21 15:54:11",
+    "end": "2026-11-21 16:06:59"
+  },
+  "note": "由 crawl_log 汇总生成"
+}

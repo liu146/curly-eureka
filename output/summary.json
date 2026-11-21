@@ -1,0 +1,1314 @@
+{
+  "generated_at": "2026-11-21T16:09:19",
+  "counts": {
+    "cities": 12,
+    "forecasts": 84,
+    "history": 8760,
+    "crawl_log": 308
+  },
+  "cities": [
+    "北京",
+    "上海",
+    "广州",
+    "深圳",
+    "杭州",
+    "成都",
+    "武汉",
+    "西安",
+    "南京",
+    "重庆",
+    "哈尔滨",
+    "三亚"
+  ],
+  "history": {
+    "start": "2024-11-01",
+    "end": "2026-10-31",
+    "rows": 8760,
+    "days_per_city": 730
+  },
+  "forecast": {
+    "issue_date": "2026-11-21",
+    "rows": 84,
+    "days": 7
+  },
+  "profile": [
+    {
+      "city": "三亚",
+      "days": 730,
+      "avg_high": 30.4,
+      "avg_low": 22.9,
+      "mean_temp": 26.6,
+      "max_high": 35,
+      "min_low": 13,
+      "rain_days": 202,
+      "rain_ratio": 27.7,
+      "avg_range": 7.5,
+      "strong_wind_days": 8
+    },
+    {
+      "city": "深圳",
+      "days": 730,
+      "avg_high": 27.6,
+      "avg_low": 20.9,
+      "mean_temp": 24.3,
+      "max_high": 36,
+      "min_low": 8,
+      "rain_days": 255,
+      "rain_ratio": 34.9,
+      "avg_range": 6.7,
+      "strong_wind_days": 5
+    },
+    {
+      "city": "广州",
+      "days": 730,
+      "avg_high": 27.9,
+      "avg_low": 19.3,
+      "mean_temp": 23.6,
+      "max_high": 37,
+      "min_low": 4,
+      "rain_days": 293,
+      "rain_ratio": 40.1,
+      "avg_range": 8.6,
+      "strong_wind_days": 4
+    },
+    {
+      "city": "重庆",
+      "days": 730,
+      "avg_high": 23.9,
+      "avg_low": 17.3,
+      "mean_temp": 20.6,
+      "max_high": 42,
+      "min_low": 3,
+      "rain_days": 237,
+      "rain_ratio": 32.5,
+      "avg_range": 6.6,
+      "strong_wind_days": 0
+    },
+    {
+      "city": "杭州",
+      "days": 730,
+      "avg_high": 23.6,
+      "avg_low": 15.3,
+      "mean_temp": 19.5,
+      "max_high": 40,
+      "min_low": -4,
+      "rain_days": 248,
+      "rain_ratio": 34.0,
+      "avg_range": 8.2,
+      "strong_wind_days": 1
+    },
+    {
+      "city": "上海",
+      "days": 730,
+      "avg_high": 22.7,
+      "avg_low": 15.6,
+      "mean_temp": 19.1,
+      "max_high": 40,
+      "min_low": -3,
+      "rain_days": 224,
+      "rain_ratio": 30.7,
+      "avg_range": 7.1,
+      "strong_wind_days": 2
+    },
+    {
+      "city": "成都",
+      "days": 730,
+      "avg_high": 23.1,
+      "avg_low": 14.0,
+      "mean_temp": 18.5,
+      "max_high": 40,
+      "min_low": -1,
+      "rain_days": 187,
+      "rain_ratio": 25.6,
+      "avg_range": 9.2,
+      "strong_wind_days": 0
+    },
+    {
+      "city": "武汉",
+      "days": 730,
+      "avg_high": 23.1,
+      "avg_low": 13.8,
+      "mean_temp": 18.4,
+      "max_high": 38,
+      "min_low": -5,
+      "rain_days": 213,
+      "rain_ratio": 29.2,
+      "avg_range": 9.3,
+      "strong_wind_days": 0
+    },
+    {
+      "city": "南京",
+      "days": 730,
+      "avg_high": 22.2,
+      "avg_low": 13.8,
+      "mean_temp": 18.0,
+      "max_high": 39,
+      "min_low": -6,
+      "rain_days": 173,
+      "rain_ratio": 23.7,
+      "avg_range": 8.4,
+      "strong_wind_days": 7
+    },
+    {
+      "city": "西安",
+      "days": 730,
+      "avg_high": 21.5,
+      "avg_low": 11.9,
+      "mean_temp": 16.7,
+      "max_high": 43,
+      "min_low": -12,
+      "rain_days": 165,
+      "rain_ratio": 22.6,
+      "avg_range": 9.6,
+      "strong_wind_days": 0
+    },
+    {
+      "city": "北京",
+      "days": 730,
+      "avg_high": 19.4,
+      "avg_low": 9.1,
+      "mean_temp": 14.3,
+      "max_high": 38,
+      "min_low": -13,
+      "rain_days": 130,
+      "rain_ratio": 17.8,
+      "avg_range": 10.3,
+      "strong_wind_days": 0
+    },
+    {
+      "city": "哈尔滨",
+      "days": 730,
+      "avg_high": 11.1,
+      "avg_low": 0.9,
+      "mean_temp": 6.0,
+      "max_high": 36,
+      "min_low": -29,
+      "rain_days": 207,
+      "rain_ratio": 28.4,
+      "avg_range": 10.1,
+      "strong_wind_days": 1
+    }
+  ],
+  "season": [
+    {
+      "city_name": "三亚",
+      "year": 2025,
+      "mean_temp": 28.99,
+      "rain_days": 35,
+      "days": 92
+    },
+    {
+      "city_name": "三亚",
+      "year": 2026,
+      "mean_temp": 29.27,
+      "rain_days": 45,
+      "days": 92
+    },
+    {
+      "city_name": "上海",
+      "year": 2025,
+      "mean_temp": 29.49,
+      "rain_days": 47,
+      "days": 92
+    },
+    {
+      "city_name": "上海",
+      "year": 2026,
+      "mean_temp": 28.54,
+      "rain_days": 45,
+      "days": 92
+    },
+    {
+      "city_name": "北京",
+      "year": 2025,
+      "mean_temp": 27.4,
+      "rain_days": 33,
+      "days": 92
+    },
+    {
+      "city_name": "北京",
+      "year": 2026,
+      "mean_temp": 26.03,
+      "rain_days": 44,
+      "days": 92
+    },
+    {
+      "city_name": "南京",
+      "year": 2025,
+      "mean_temp": 28.98,
+      "rain_days": 30,
+      "days": 92
+    },
+    {
+      "city_name": "南京",
+      "year": 2026,
+      "mean_temp": 27.88,
+      "rain_days": 41,
+      "days": 92
+    },
+    {
+      "city_name": "哈尔滨",
+      "year": 2025,
+      "mean_temp": 23.09,
+      "rain_days": 42,
+      "days": 92
+    },
+    {
+      "city_name": "哈尔滨",
+      "year": 2026,
+      "mean_temp": 22.7,
+      "rain_days": 60,
+      "days": 92
+    },
+    {
+      "city_name": "广州",
+      "year": 2025,
+      "mean_temp": 29.21,
+      "rain_days": 68,
+      "days": 92
+    },
+    {
+      "city_name": "广州",
+      "year": 2026,
+      "mean_temp": 29.04,
+      "rain_days": 70,
+      "days": 92
+    },
+    {
+      "city_name": "成都",
+      "year": 2025,
+      "mean_temp": 27.6,
+      "rain_days": 40,
+      "days": 92
+    },
+    {
+      "city_name": "成都",
+      "year": 2026,
+      "mean_temp": 27.54,
+      "rain_days": 33,
+      "days": 92
+    },
+    {
+      "city_name": "杭州",
+      "year": 2025,
+      "mean_temp": 29.61,
+      "rain_days": 44,
+      "days": 92
+    },
+    {
+      "city_name": "杭州",
+      "year": 2026,
+      "mean_temp": 28.95,
+      "rain_days": 55,
+      "days": 92
+    },
+    {
+      "city_name": "武汉",
+      "year": 2025,
+      "mean_temp": 29.54,
+      "rain_days": 38,
+      "days": 92
+    },
+    {
+      "city_name": "武汉",
+      "year": 2026,
+      "mean_temp": 28.34,
+      "rain_days": 31,
+      "days": 92
+    },
+    {
+      "city_name": "深圳",
+      "year": 2025,
+      "mean_temp": 29.05,
+      "rain_days": 61,
+      "days": 92
+    },
+    {
+      "city_name": "深圳",
+      "year": 2026,
+      "mean_temp": 28.61,
+      "rain_days": 64,
+      "days": 92
+    },
+    {
+      "city_name": "西安",
+      "year": 2025,
+      "mean_temp": 29.66,
+      "rain_days": 27,
+      "days": 92
+    },
+    {
+      "city_name": "西安",
+      "year": 2026,
+      "mean_temp": 27.74,
+      "rain_days": 26,
+      "days": 92
+    },
+    {
+      "city_name": "重庆",
+      "year": 2025,
+      "mean_temp": 30.77,
+      "rain_days": 28,
+      "days": 92
+    },
+    {
+      "city_name": "重庆",
+      "year": 2026,
+      "mean_temp": 29.66,
+      "rain_days": 29,
+      "days": 92
+    }
+  ],
+  "hottest_city": "三亚",
+  "coldest_city": "哈尔滨",
+  "rainiest_city": "广州",
+  "largest_range_city": "北京",
+  "national_avg_rain_ratio": 28.9,
+  "forecast_compare": [
+    {
+      "city_name": "广州",
+      "weather": "多云",
+      "temp_high": 21,
+      "temp_low": 11,
+      "score": 98,
+      "grade": "A"
+    },
+    {
+      "city_name": "深圳",
+      "weather": "多云",
+      "temp_high": 21,
+      "temp_low": 14,
+      "score": 98,
+      "grade": "A"
+    },
+    {
+      "city_name": "三亚",
+      "weather": "多云",
+      "temp_high": 29,
+      "temp_low": 22,
+      "score": 92,
+      "grade": "A"
+    },
+    {
+      "city_name": "上海",
+      "weather": "晴",
+      "temp_high": 15,
+      "temp_low": 7,
+      "score": 88,
+      "grade": "A"
+    },
+    {
+      "city_name": "重庆",
+      "weather": "晴转多云",
+      "temp_high": 19,
+      "temp_low": 10,
+      "score": 86,
+      "grade": "A"
+    },
+    {
+      "city_name": "杭州",
+      "weather": "晴",
+      "temp_high": 17,
+      "temp_low": 6,
+      "score": 84,
+      "grade": "A"
+    },
+    {
+      "city_name": "武汉",
+      "weather": "晴",
+      "temp_high": 18,
+      "temp_low": 6,
+      "score": 84,
+      "grade": "A"
+    },
+    {
+      "city_name": "南京",
+      "weather": "晴",
+      "temp_high": 16,
+      "temp_low": 4,
+      "score": 84,
+      "grade": "A"
+    },
+    {
+      "city_name": "成都",
+      "weather": "晴转阴",
+      "temp_high": 18,
+      "temp_low": 9,
+      "score": 82,
+      "grade": "A"
+    },
+    {
+      "city_name": "西安",
+      "weather": "晴",
+      "temp_high": 13,
+      "temp_low": 2,
+      "score": 71,
+      "grade": "B"
+    },
+    {
+      "city_name": "北京",
+      "weather": "晴",
+      "temp_high": 8,
+      "temp_low": -3,
+      "score": 61,
+      "grade": "C"
+    },
+    {
+      "city_name": "哈尔滨",
+      "weather": "晴",
+      "temp_high": -8,
+      "temp_low": -13,
+      "score": 57,
+      "grade": "C"
+    }
+  ],
+  "best_city_today": "广州",
+  "anomaly_beijing": [
+    {
+      "date": "2026-11-21",
+      "weekday": "周六",
+      "weather": "晴",
+      "temp_high": 8,
+      "temp_low": -3,
+      "mean_temp": 2.5,
+      "clim_mean": 5.8,
+      "delta": -3.3,
+      "verdict": "明显偏冷"
+    },
+    {
+      "date": "2026-11-22",
+      "weekday": "周日",
+      "weather": "多云",
+      "temp_high": 6,
+      "temp_low": -1,
+      "mean_temp": 2.5,
+      "clim_mean": 5.5,
+      "delta": -3.0,
+      "verdict": "明显偏冷"
+    },
+    {
+      "date": "2026-11-23",
+      "weekday": "周一",
+      "weather": "晴",
+      "temp_high": 8,
+      "temp_low": -4,
+      "mean_temp": 2.0,
+      "clim_mean": 5.1,
+      "delta": -3.1,
+      "verdict": "明显偏冷"
+    },
+    {
+      "date": "2026-11-24",
+      "weekday": "周二",
+      "weather": "晴",
+      "temp_high": 6,
+      "temp_low": -3,
+      "mean_temp": 1.5,
+      "clim_mean": 4.9,
+      "delta": -3.4,
+      "verdict": "明显偏冷"
+    },
+    {
+      "date": "2026-11-25",
+      "weekday": "周三",
+      "weather": "晴",
+      "temp_high": 9,
+      "temp_low": -2,
+      "mean_temp": 3.5,
+      "clim_mean": 4.6,
+      "delta": -1.1,
+      "verdict": "偏冷"
+    },
+    {
+      "date": "2026-11-26",
+      "weekday": "周四",
+      "weather": "多云",
+      "temp_high": 10,
+      "temp_low": 0,
+      "mean_temp": 5.0,
+      "clim_mean": 4.3,
+      "delta": 0.7,
+      "verdict": "接近常年"
+    },
+    {
+      "date": "2026-11-27",
+      "weekday": "周五",
+      "weather": "晴",
+      "temp_high": 13,
+      "temp_low": -1,
+      "mean_temp": 6.0,
+      "clim_mean": 4.0,
+      "delta": 2.0,
+      "verdict": "偏暖"
+    }
+  ],
+  "travel_scores": [
+    {
+      "city_name": "北京",
+      "forecast_date": "2026-11-21",
+      "weather": "晴",
+      "temp_high": 8,
+      "temp_low": -3,
+      "score": 61,
+      "grade": "C"
+    },
+    {
+      "city_name": "北京",
+      "forecast_date": "2026-11-22",
+      "weather": "多云",
+      "temp_high": 6,
+      "temp_low": -1,
+      "score": 63,
+      "grade": "C"
+    },
+    {
+      "city_name": "北京",
+      "forecast_date": "2026-11-23",
+      "weather": "晴",
+      "temp_high": 8,
+      "temp_low": -4,
+      "score": 59,
+      "grade": "C"
+    },
+    {
+      "city_name": "北京",
+      "forecast_date": "2026-11-24",
+      "weather": "晴",
+      "temp_high": 6,
+      "temp_low": -3,
+      "score": 65,
+      "grade": "B"
+    },
+    {
+      "city_name": "北京",
+      "forecast_date": "2026-11-25",
+      "weather": "晴",
+      "temp_high": 9,
+      "temp_low": -2,
+      "score": 61,
+      "grade": "C"
+    },
+    {
+      "city_name": "北京",
+      "forecast_date": "2026-11-26",
+      "weather": "多云",
+      "temp_high": 10,
+      "temp_low": 0,
+      "score": 73,
+      "grade": "B"
+    },
+    {
+      "city_name": "北京",
+      "forecast_date": "2026-11-27",
+      "weather": "晴",
+      "temp_high": 13,
+      "temp_low": -1,
+      "score": 65,
+      "grade": "B"
+    },
+    {
+      "city_name": "上海",
+      "forecast_date": "2026-11-21",
+      "weather": "晴",
+      "temp_high": 15,
+      "temp_low": 7,
+      "score": 88,
+      "grade": "A"
+    },
+    {
+      "city_name": "上海",
+      "forecast_date": "2026-11-22",
+      "weather": "多云转阴",
+      "temp_high": 17,
+      "temp_low": 12,
+      "score": 82,
+      "grade": "A"
+    },
+    {
+      "city_name": "上海",
+      "forecast_date": "2026-11-23",
+      "weather": "阴",
+      "temp_high": 18,
+      "temp_low": 7,
+      "score": 78,
+      "grade": "B"
+    },
+    {
+      "city_name": "上海",
+      "forecast_date": "2026-11-24",
+      "weather": "阴",
+      "temp_high": 13,
+      "temp_low": 5,
+      "score": 69,
+      "grade": "B"
+    },
+    {
+      "city_name": "上海",
+      "forecast_date": "2026-11-25",
+      "weather": "阴",
+      "temp_high": 13,
+      "temp_low": 8,
+      "score": 82,
+      "grade": "A"
+    },
+    {
+      "city_name": "上海",
+      "forecast_date": "2026-11-26",
+      "weather": "多云转晴",
+      "temp_high": 17,
+      "temp_low": 12,
+      "score": 86,
+      "grade": "A"
+    },
+    {
+      "city_name": "上海",
+      "forecast_date": "2026-11-27",
+      "weather": "多云",
+      "temp_high": 21,
+      "temp_low": 10,
+      "score": 82,
+      "grade": "A"
+    },
+    {
+      "city_name": "重庆",
+      "forecast_date": "2026-11-21",
+      "weather": "晴转多云",
+      "temp_high": 19,
+      "temp_low": 10,
+      "score": 86,
+      "grade": "A"
+    },
+    {
+      "city_name": "重庆",
+      "forecast_date": "2026-11-22",
+      "weather": "多云转小雨",
+      "temp_high": 16,
+      "temp_low": 12,
+      "score": 70,
+      "grade": "B"
+    },
+    {
+      "city_name": "重庆",
+      "forecast_date": "2026-11-23",
+      "weather": "阴转小雨",
+      "temp_high": 15,
+      "temp_low": 14,
+      "score": 70,
+      "grade": "B"
+    },
+    {
+      "city_name": "重庆",
+      "forecast_date": "2026-11-24",
+      "weather": "小雨转阴",
+      "temp_high": 16,
+      "temp_low": 13,
+      "score": 70,
+      "grade": "B"
+    },
+    {
+      "city_name": "重庆",
+      "forecast_date": "2026-11-25",
+      "weather": "阴转晴",
+      "temp_high": 18,
+      "temp_low": 11,
+      "score": 82,
+      "grade": "A"
+    },
+    {
+      "city_name": "重庆",
+      "forecast_date": "2026-11-26",
+      "weather": "晴",
+      "temp_high": 18,
+      "temp_low": 11,
+      "score": 88,
+      "grade": "A"
+    },
+    {
+      "city_name": "重庆",
+      "forecast_date": "2026-11-27",
+      "weather": "晴转多云",
+      "temp_high": 19,
+      "temp_low": 11,
+      "score": 86,
+      "grade": "A"
+    },
+    {
+      "city_name": "哈尔滨",
+      "forecast_date": "2026-11-21",
+      "weather": "晴",
+      "temp_high": -8,
+      "temp_low": -13,
+      "score": 57,
+      "grade": "C"
+    },
+    {
+      "city_name": "哈尔滨",
+      "forecast_date": "2026-11-22",
+      "weather": "多云",
+      "temp_high": -2,
+      "temp_low": -8,
+      "score": 61,
+      "grade": "C"
+    },
+    {
+      "city_name": "哈尔滨",
+      "forecast_date": "2026-11-23",
+      "weather": "多云转晴",
+      "temp_high": -2,
+      "temp_low": -12,
+      "score": 53,
+      "grade": "C"
+    },
+    {
+      "city_name": "哈尔滨",
+      "forecast_date": "2026-11-24",
+      "weather": "晴转多云",
+      "temp_high": -8,
+      "temp_low": -14,
+      "score": 53,
+      "grade": "C"
+    },
+    {
+      "city_name": "哈尔滨",
+      "forecast_date": "2026-11-25",
+      "weather": "阵雪转小雪",
+      "temp_high": -2,
+      "temp_low": -11,
+      "score": 39,
+      "grade": "D"
+    },
+    {
+      "city_name": "哈尔滨",
+      "forecast_date": "2026-11-26",
+      "weather": "多云转阵雪",
+      "temp_high": -3,
+      "temp_low": -10,
+      "score": 39,
+      "grade": "D"
+    },
+    {
+      "city_name": "哈尔滨",
+      "forecast_date": "2026-11-27",
+      "weather": "多云转阵雪",
+      "temp_high": -3,
+      "temp_low": -9,
+      "score": 47,
+      "grade": "D"
+    },
+    {
+      "city_name": "西安",
+      "forecast_date": "2026-11-21",
+      "weather": "晴",
+      "temp_high": 13,
+      "temp_low": 2,
+      "score": 71,
+      "grade": "B"
+    },
+    {
+      "city_name": "西安",
+      "forecast_date": "2026-11-22",
+      "weather": "多云转晴",
+      "temp_high": 11,
+      "temp_low": 6,
+      "score": 73,
+      "grade": "B"
+    },
+    {
+      "city_name": "西安",
+      "forecast_date": "2026-11-23",
+      "weather": "多云转晴",
+      "temp_high": 18,
+      "temp_low": 4,
+      "score": 78,
+      "grade": "B"
+    },
+    {
+      "city_name": "西安",
+      "forecast_date": "2026-11-24",
+      "weather": "多云转晴",
+      "temp_high": 14,
+      "temp_low": 3,
+      "score": 69,
+      "grade": "B"
+    },
+    {
+      "city_name": "西安",
+      "forecast_date": "2026-11-25",
+      "weather": "多云转晴",
+      "temp_high": 21,
+      "temp_low": 5,
+      "score": 74,
+      "grade": "B"
+    },
+    {
+      "city_name": "西安",
+      "forecast_date": "2026-11-26",
+      "weather": "多云转晴",
+      "temp_high": 21,
+      "temp_low": 3,
+      "score": 74,
+      "grade": "B"
+    },
+    {
+      "city_name": "西安",
+      "forecast_date": "2026-11-27",
+      "weather": "多云转晴",
+      "temp_high": 16,
+      "temp_low": 3,
+      "score": 65,
+      "grade": "B"
+    },
+    {
+      "city_name": "南京",
+      "forecast_date": "2026-11-21",
+      "weather": "晴",
+      "temp_high": 16,
+      "temp_low": 4,
+      "score": 84,
+      "grade": "A"
+    },
+    {
+      "city_name": "南京",
+      "forecast_date": "2026-11-22",
+      "weather": "多云转阴",
+      "temp_high": 18,
+      "temp_low": 6,
+      "score": 78,
+      "grade": "B"
+    },
+    {
+      "city_name": "南京",
+      "forecast_date": "2026-11-23",
+      "weather": "阴转多云",
+      "temp_high": 15,
+      "temp_low": 5,
+      "score": 82,
+      "grade": "A"
+    },
+    {
+      "city_name": "南京",
+      "forecast_date": "2026-11-24",
+      "weather": "晴转阴",
+      "temp_high": 11,
+      "temp_low": 0,
+      "score": 65,
+      "grade": "B"
+    },
+    {
+      "city_name": "南京",
+      "forecast_date": "2026-11-25",
+      "weather": "阴转晴",
+      "temp_high": 14,
+      "temp_low": 6,
+      "score": 82,
+      "grade": "A"
+    },
+    {
+      "city_name": "南京",
+      "forecast_date": "2026-11-26",
+      "weather": "晴",
+      "temp_high": 20,
+      "temp_low": 8,
+      "score": 84,
+      "grade": "A"
+    },
+    {
+      "city_name": "南京",
+      "forecast_date": "2026-11-27",
+      "weather": "多云转晴",
+      "temp_high": 20,
+      "temp_low": 7,
+      "score": 78,
+      "grade": "B"
+    },
+    {
+      "city_name": "武汉",
+      "forecast_date": "2026-11-21",
+      "weather": "晴",
+      "temp_high": 18,
+      "temp_low": 6,
+      "score": 84,
+      "grade": "A"
+    },
+    {
+      "city_name": "武汉",
+      "forecast_date": "2026-11-22",
+      "weather": "多云转阴",
+      "temp_high": 17,
+      "temp_low": 8,
+      "score": 82,
+      "grade": "A"
+    },
+    {
+      "city_name": "武汉",
+      "forecast_date": "2026-11-23",
+      "weather": "小雨转阴",
+      "temp_high": 14,
+      "temp_low": 7,
+      "score": 70,
+      "grade": "B"
+    },
+    {
+      "city_name": "武汉",
+      "forecast_date": "2026-11-24",
+      "weather": "多云转阴",
+      "temp_high": 17,
+      "temp_low": 5,
+      "score": 78,
+      "grade": "B"
+    },
+    {
+      "city_name": "武汉",
+      "forecast_date": "2026-11-25",
+      "weather": "阴转晴",
+      "temp_high": 16,
+      "temp_low": 4,
+      "score": 78,
+      "grade": "B"
+    },
+    {
+      "city_name": "武汉",
+      "forecast_date": "2026-11-26",
+      "weather": "晴",
+      "temp_high": 20,
+      "temp_low": 4,
+      "score": 76,
+      "grade": "B"
+    },
+    {
+      "city_name": "武汉",
+      "forecast_date": "2026-11-27",
+      "weather": "多云转晴",
+      "temp_high": 20,
+      "temp_low": 5,
+      "score": 78,
+      "grade": "B"
+    },
+    {
+      "city_name": "杭州",
+      "forecast_date": "2026-11-21",
+      "weather": "晴",
+      "temp_high": 17,
+      "temp_low": 6,
+      "score": 84,
+      "grade": "A"
+    },
+    {
+      "city_name": "杭州",
+      "forecast_date": "2026-11-22",
+      "weather": "晴转多云",
+      "temp_high": 17,
+      "temp_low": 8,
+      "score": 86,
+      "grade": "A"
+    },
+    {
+      "city_name": "杭州",
+      "forecast_date": "2026-11-23",
+      "weather": "小雨",
+      "temp_high": 15,
+      "temp_low": 9,
+      "score": 70,
+      "grade": "B"
+    },
+    {
+      "city_name": "杭州",
+      "forecast_date": "2026-11-24",
+      "weather": "晴",
+      "temp_high": 13,
+      "temp_low": 5,
+      "score": 75,
+      "grade": "B"
+    },
+    {
+      "city_name": "杭州",
+      "forecast_date": "2026-11-25",
+      "weather": "多云",
+      "temp_high": 15,
+      "temp_low": 7,
+      "score": 86,
+      "grade": "A"
+    },
+    {
+      "city_name": "杭州",
+      "forecast_date": "2026-11-26",
+      "weather": "晴",
+      "temp_high": 21,
+      "temp_low": 10,
+      "score": 84,
+      "grade": "A"
+    },
+    {
+      "city_name": "杭州",
+      "forecast_date": "2026-11-27",
+      "weather": "晴",
+      "temp_high": 21,
+      "temp_low": 10,
+      "score": 84,
+      "grade": "A"
+    },
+    {
+      "city_name": "成都",
+      "forecast_date": "2026-11-21",
+      "weather": "晴转阴",
+      "temp_high": 18,
+      "temp_low": 9,
+      "score": 82,
+      "grade": "A"
+    },
+    {
+      "city_name": "成都",
+      "forecast_date": "2026-11-22",
+      "weather": "多云转阴",
+      "temp_high": 20,
+      "temp_low": 10,
+      "score": 82,
+      "grade": "A"
+    },
+    {
+      "city_name": "成都",
+      "forecast_date": "2026-11-23",
+      "weather": "多云转阴",
+      "temp_high": 21,
+      "temp_low": 13,
+      "score": 94,
+      "grade": "A"
+    },
+    {
+      "city_name": "成都",
+      "forecast_date": "2026-11-24",
+      "weather": "阴转多云",
+      "temp_high": 18,
+      "temp_low": 8,
+      "score": 82,
+      "grade": "A"
+    },
+    {
+      "city_name": "成都",
+      "forecast_date": "2026-11-25",
+      "weather": "多云",
+      "temp_high": 17,
+      "temp_low": 9,
+      "score": 86,
+      "grade": "A"
+    },
+    {
+      "city_name": "成都",
+      "forecast_date": "2026-11-26",
+      "weather": "多云转晴",
+      "temp_high": 15,
+      "temp_low": 8,
+      "score": 86,
+      "grade": "A"
+    },
+    {
+      "city_name": "成都",
+      "forecast_date": "2026-11-27",
+      "weather": "晴",
+      "temp_high": 20,
+      "temp_low": 8,
+      "score": 84,
+      "grade": "A"
+    },
+    {
+      "city_name": "广州",
+      "forecast_date": "2026-11-21",
+      "weather": "多云",
+      "temp_high": 21,
+      "temp_low": 11,
+      "score": 98,
+      "grade": "A"
+    },
+    {
+      "city_name": "广州",
+      "forecast_date": "2026-11-22",
+      "weather": "阴转小雨",
+      "temp_high": 19,
+      "temp_low": 16,
+      "score": 82,
+      "grade": "A"
+    },
+    {
+      "city_name": "广州",
+      "forecast_date": "2026-11-23",
+      "weather": "小雨",
+      "temp_high": 21,
+      "temp_low": 16,
+      "score": 82,
+      "grade": "A"
+    },
+    {
+      "city_name": "广州",
+      "forecast_date": "2026-11-24",
+      "weather": "小雨",
+      "temp_high": 21,
+      "temp_low": 13,
+      "score": 82,
+      "grade": "A"
+    },
+    {
+      "city_name": "广州",
+      "forecast_date": "2026-11-25",
+      "weather": "多云转小雨",
+      "temp_high": 17,
+      "temp_low": 14,
+      "score": 70,
+      "grade": "B"
+    },
+    {
+      "city_name": "广州",
+      "forecast_date": "2026-11-26",
+      "weather": "多云",
+      "temp_high": 21,
+      "temp_low": 16,
+      "score": 98,
+      "grade": "A"
+    },
+    {
+      "city_name": "广州",
+      "forecast_date": "2026-11-27",
+      "weather": "多云",
+      "temp_high": 24,
+      "temp_low": 14,
+      "score": 98,
+      "grade": "A"
+    },
+    {
+      "city_name": "深圳",
+      "forecast_date": "2026-11-21",
+      "weather": "多云",
+      "temp_high": 21,
+      "temp_low": 14,
+      "score": 98,
+      "grade": "A"
+    },
+    {
+      "city_name": "深圳",
+      "forecast_date": "2026-11-22",
+      "weather": "阴转多云",
+      "temp_high": 21,
+      "temp_low": 18,
+      "score": 94,
+      "grade": "A"
+    },
+    {
+      "city_name": "深圳",
+      "forecast_date": "2026-11-23",
+      "weather": "阴转小雨",
+      "temp_high": 22,
+      "temp_low": 18,
+      "score": 82,
+      "grade": "A"
+    },
+    {
+      "city_name": "深圳",
+      "forecast_date": "2026-11-24",
+      "weather": "多云",
+      "temp_high": 22,
+      "temp_low": 16,
+      "score": 98,
+      "grade": "A"
+    },
+    {
+      "city_name": "深圳",
+      "forecast_date": "2026-11-25",
+      "weather": "多云转小雨",
+      "temp_high": 20,
+      "temp_low": 16,
+      "score": 82,
+      "grade": "A"
+    },
+    {
+      "city_name": "深圳",
+      "forecast_date": "2026-11-26",
+      "weather": "多云",
+      "temp_high": 21,
+      "temp_low": 18,
+      "score": 98,
+      "grade": "A"
+    },
+    {
+      "city_name": "深圳",
+      "forecast_date": "2026-11-27",
+      "weather": "多云",
+      "temp_high": 24,
+      "temp_low": 18,
+      "score": 98,
+      "grade": "A"
+    },
+    {
+      "city_name": "三亚",
+      "forecast_date": "2026-11-21",
+      "weather": "多云",
+      "temp_high": 29,
+      "temp_low": 22,
+      "score": 92,
+      "grade": "A"
+    },
+    {
+      "city_name": "三亚",
+      "forecast_date": "2026-11-22",
+      "weather": "多云",
+      "temp_high": 30,
+      "temp_low": 22,
+      "score": 96,
+      "grade": "A"
+    },
+    {
+      "city_name": "三亚",
+      "forecast_date": "2026-11-23",
+      "weather": "多云",
+      "temp_high": 30,
+      "temp_low": 23,
+      "score": 84,
+      "grade": "A"
+    },
+    {
+      "city_name": "三亚",
+      "forecast_date": "2026-11-24",
+      "weather": "小雨转多云",
+      "temp_high": 28,
+      "temp_low": 23,
+      "score": 82,
+      "grade": "A"
+    },
+    {
+      "city_name": "三亚",
+      "forecast_date": "2026-11-25",
+      "weather": "多云",
+      "temp_high": 30,
+      "temp_low": 23,
+      "score": 86,
+      "grade": "A"
+    },
+    {
+      "city_name": "三亚",
+      "forecast_date": "2026-11-26",
+      "weather": "小雨转多云",
+      "temp_high": 31,
+      "temp_low": 23,
+      "score": 70,
+      "grade": "B"
+    },
+    {
+      "city_name": "三亚",
+      "forecast_date": "2026-11-27",
+      "weather": "小雨转多云",
+      "temp_high": 30,
+      "temp_low": 23,
+      "score": 68,
+      "grade": "B"
+    }
+  ],
+  "figures": [],
+  "crawl": {
+    "requests": 308,
+    "ok": 302,
+    "fail": 6,
+    "rows": 8858,
+    "seconds": 768.0,
+    "avg_ms": 1159,
+    "start": "2026-11-21 15:54:11",
+    "end": "2026-11-21 16:06:59"
+  }
+}

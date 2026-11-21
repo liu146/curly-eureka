@@ -1,0 +1,20 @@
+{"id": 1, "q": "北京这周末适合出去玩吗？需要带伞吗？", "intents": ["best_day", "rain"], "tools": ["get_forecast", "best_day"]}
+{"id": 2, "q": "上海和杭州哪个更适合周末出游？", "intents": ["compare"], "tools": ["compare_cities"]}
+{"id": 3, "q": "北京今年夏天比去年热吗？", "intents": ["trend"], "tools": ["get_history"]}
+{"id": 4, "q": "下周三去成都，穿什么？", "intents": ["packing"], "tools": ["packing_advice"]}
+{"id": 5, "q": "北京最近的天气反常吗？", "intents": ["anomaly"], "tools": ["climate_anomaly"]}
+{"id": 6, "q": "帮我生成一份北京未来一周的出行简报", "intents": ["brief"], "tools": ["save_brief"]}
+{"id": 7, "q": "广州明天会下雨吗？", "intents": ["rain"], "tools": ["get_forecast"]}
+{"id": 8, "q": "三亚未来三天天气怎么样", "intents": ["general"], "tools": ["get_forecast"]}
+{"id": 9, "q": "哈尔滨和三亚哪个更暖和", "intents": ["compare"], "tools": ["compare_cities"]}
+{"id": 10, "q": "西安这周末冷不冷", "intents": ["packing"], "tools": ["packing_advice"]}
+{"id": 11, "q": "深圳和广州哪里更适合旅游", "intents": ["compare"], "tools": ["compare_cities"]}
+{"id": 12, "q": "重庆未来一周哪天最适合出门", "intents": ["best_day"], "tools": ["best_day"]}
+{"id": 13, "q": "南京今年比去年热吗", "intents": ["trend"], "tools": ["get_history"]}
+{"id": 14, "q": "武汉现在多少度", "intents": ["general"], "tools": ["get_forecast"]}
+{"id": 15, "q": "上海未来五天穿什么衣服", "intents": ["packing"], "tools": ["packing_advice"]}
+{"id": 16, "q": "北京和西安哪个温差更大", "intents": ["compare"], "tools": ["compare_cities"]}
+{"id": 17, "q": "成都这个季节反常吗", "intents": ["anomaly"], "tools": ["climate_anomaly"]}
+{"id": 18, "q": "帮我做一份三亚出行简报", "intents": ["brief"], "tools": ["save_brief"]}
+{"id": 19, "q": "杭州明天下雨吗，要带伞吗", "intents": ["rain"], "tools": ["get_forecast"]}
+{"id": 20, "q": "天津天气怎么样", "intents": ["general"], "tools": ["get_forecast"]}

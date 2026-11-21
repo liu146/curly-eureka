@@ -1,0 +1,62 @@
+# 城市天气与出行建议爬虫 Agent —— 项目配置
+project:
+  name: "城市天气与出行建议爬虫 Agent"
+  short_name: "WeatherTrip Agent"
+  student: "刘志远"
+  student_id: "2024612065"
+  course: "网络爬虫技术"
+  version: "1.0.0"
+
+# ---------------- 采集参数 ----------------
+crawl:
+  delay_seconds: 1.2        # 同一站点两次请求的最小间隔（秒）
+  timeout: 15               # 单次请求超时（秒）
+  retries: 3                # 失败重试次数
+  backoff_base: 1.5         # 指数退避基数
+  cache_ttl_hours: 6        # 页面缓存有效期（历史页永久缓存）
+  obey_robots: true         # 是否遵守 robots.txt
+  user_agent: "WeatherTripAgent/1.0 (course project; +mailto:2024612065@example.edu.cn)"
+
+# ---------------- 数据源 ----------------
+sources:
+  forecast: "http://www.weather.com.cn/weather/{code}.shtml"
+  history:  "http://www.tianqihoubao.com/lishi/{slug}/month/{yyyymm}.html"
+  forecast_name: "中国天气网·城市7天预报"
+  history_name:  "天气后报·历史月度天气"
+
+# ---------------- 历史数据范围 ----------------
+history:
+  start_month: "2024-11"
+  end_month: "2026-10"
+
+# ---------------- 城市列表（12 个，覆盖七大地理分区）----------------
+cities:
+  - { code: "101010100", name: "北京", slug: "beijing",   province: "北京",   region: "华北" }
+  - { code: "101020100", name: "上海", slug: "shanghai",  province: "上海",   region: "华东" }
+  - { code: "101280101", name: "广州", slug: "guangzhou", province: "广东",   region: "华南" }
+  - { code: "101280601", name: "深圳", slug: "shenzhen",  province: "广东",   region: "华南" }
+  - { code: "101210101", name: "杭州", slug: "hangzhou",  province: "浙江",   region: "华东" }
+  - { code: "101270101", name: "成都", slug: "chengdu",   province: "四川",   region: "西南" }
+  - { code: "101200101", name: "武汉", slug: "wuhan",     province: "湖北",   region: "华中" }
+  - { code: "101110101", name: "西安", slug: "xian",      province: "陕西",   region: "西北" }
+  - { code: "101190101", name: "南京", slug: "nanjing",   province: "江苏",   region: "华东" }
+  - { code: "101040100", name: "重庆", slug: "chongqing", province: "重庆",   region: "西南" }
+  - { code: "101050101", name: "哈尔滨", slug: "haerbin", province: "黑龙江", region: "东北" }
+  - { code: "101310201", name: "三亚", slug: "sanya",     province: "海南",   region: "华南" }
+
+# ---------------- 出行指数权重 ----------------
+travel_index:
+  temp_comfort: [16, 26]    # 体感最舒适的平均气温区间（℃）
+  weights:
+    temperature: 30
+    rain: 25
+    wind: 10
+    range: 10
+    extreme: 10
+
+# ---------------- Agent ----------------
+agent:
+  default_city: "北京"
+  max_steps: 8
+  max_reflect: 2
+  brief_dir: "output/briefs"
